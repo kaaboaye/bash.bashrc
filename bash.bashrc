@@ -73,10 +73,8 @@ export TERM='xterm-256color'
     alias music-update='yt-d https://www.youtube.com/playlist?list=PLu8asqchJwtsBJWRtckpZEQVELZnwHCRD'
     alias fuck='sudo $(history -p \!\!)'
     alias rf='rm -fr'
-
-    if ! $_isroot; then
-      alias sudo='sudo '
-      alias root='sudo su'
-      alias reboot='sudo reboot'
-      alias halt='sudo halt'
-    fi
+    alias sudo='sudo '
+    alias root='sudo su'
+    alias reboot='sudo reboot'
+    alias halt='sudo halt'
+    alias yaourtn='yaourt --noconfirm '
